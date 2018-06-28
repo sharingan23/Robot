@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		79FEACD520E501560023B2CB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FEACD420E501560023B2CB /* main.swift */; };
+		79FEACDC20E5019D0023B2CB /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FEACDB20E5019C0023B2CB /* Robot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		79FEACD120E501560023B2CB /* Robot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Robot; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FEACD420E501560023B2CB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		79FEACDB20E5019C0023B2CB /* Robot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		79FEACD320E501560023B2CB /* Robot */ = {
 			isa = PBXGroup;
 			children = (
+				79FEACDB20E5019C0023B2CB /* Robot.swift */,
 				79FEACD420E501560023B2CB /* main.swift */,
 			);
 			path = Robot;
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79FEACDC20E5019D0023B2CB /* Robot.swift in Sources */,
 				79FEACD520E501560023B2CB /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
