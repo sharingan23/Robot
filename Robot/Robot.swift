@@ -8,6 +8,8 @@
 
 import Foundation
 
+// Class Robot
+
 class Robot {
     var name = ""
     var hp = 0
