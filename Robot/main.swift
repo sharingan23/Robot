@@ -55,4 +55,8 @@ s23.introduce()
 s23.seDeplacerAleatoirement(coup: 4)
 s23.introduce()
 
+var cr7 = Robot (name: "Ronaldo", hp : 80, position : [0, 7], moveSpeed : 2)
+
+cr7.introduce()
+
 
