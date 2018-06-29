@@ -46,3 +46,10 @@ while i < j {
     manyRobot[i].introduce()
 i+=1
 }
+
+// move robots
+
+s23.move(pos: 1,dir: "droite")
+s23.introduce()
+
+
