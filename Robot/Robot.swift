@@ -31,7 +31,7 @@ class Robot {
     func move(pos: Int, dir :String) {
         
         if dir == "gauche" {
-            position[0].self = position[0] + pos
+            position[0].self = position[0] - pos
         }
         
         if dir == "droite" {
@@ -44,8 +44,25 @@ class Robot {
         
         if dir == "bas" {
             
-            position[1].self = position[1] + pos
+            position[1].self = position[1] - pos
         }
+    }
+    
+// Move hazard
+    
+    func seDeplacerAleatoirement(coup : Int) {
+        let direction = ["gauche", "droite", "haut", "bas"]
+        
+        i = 0
+        
+        while i < coup {
+            let randInt = ((Int(arc4random() % 7)) - 3)
+            let index = Int(arc4random_uniform(UInt32(direction.count)))
+            move(pos: randInt, dir: direction[index])
+            i += 1
+            }
+        
+        
     }
     
 }

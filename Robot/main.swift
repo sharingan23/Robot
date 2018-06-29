@@ -52,4 +52,7 @@ i+=1
 s23.move(pos: 1,dir: "droite")
 s23.introduce()
 
+s23.seDeplacerAleatoirement(coup: 4)
+s23.introduce()
+
 
