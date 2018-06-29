@@ -59,4 +59,16 @@ var cr7 = Robot (name: "Ronaldo", hp : 80, position : [0, 7], moveSpeed : 2)
 
 cr7.introduce()
 
+// Creation du robot mechant
+
+var darkRobot = Méchant()
+
+// Attaque du robot mechant sur le robot Cr7
+darkRobot.attaquer(distance: true, robot: cr7)
+
+cr7.introduce()
+
+
+
+
 
