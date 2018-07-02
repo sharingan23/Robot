@@ -49,13 +49,16 @@ i+=1
 
 // move robots
 
-s23.move(pos: 1,dir: "droite")
+
+var directions = Directions.Left
+
+s23.move(pos: 1,dir: directions)
 s23.introduce()
 
 s23.seDeplacerAleatoirement(coup: 4)
 s23.introduce()
 
-var cr7 = Robot (name: "Ronaldo", hp : 80, position : [0, 7], moveSpeed : 2)
+var cr7 = Robot (name: "Ronaldo", hp : 80,position :(0,7), moveSpeed: 2)
 
 cr7.introduce()
 
@@ -63,8 +66,8 @@ cr7.introduce()
 
 var darkRobot = Méchant()
 
-// Attaque du robot mechant sur le robot Cr7
-darkRobot.attaquer(distance: true, robot: cr7)
+//Attaque du robot mechant sur le robot Cr7
+darkRobot.attaquer(robot: cr7)
 
 cr7.introduce()
 

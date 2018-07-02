@@ -11,19 +11,17 @@ import Foundation
 class Méchant : Robot {
 
     var damage = 0
-    var distance = false
     
     
     
     override init() {
         super.init()
         damage = 20
-        distance = true
     }
 
 
-    func attaquer (distance : Bool, robot : Robot) {
-        if distance {
+    func attaquer (robot : Robot) {
+        if robot.distance {
             robot.hp = robot.hp - damage
             
         } else {
@@ -31,3 +29,5 @@ class Méchant : Robot {
         }
     }
 }
+
+

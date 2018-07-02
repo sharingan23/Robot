@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7900DEAA20EA44BE0007F912 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7900DEA920EA44BE0007F912 /* Directions.swift */; };
 		79FC5C8F20E66D8F007F5C2E /* Méchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FC5C8E20E66D8F007F5C2E /* Méchant.swift */; };
 		79FEACD520E501560023B2CB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FEACD420E501560023B2CB /* main.swift */; };
 		79FEACDC20E5019D0023B2CB /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FEACDB20E5019C0023B2CB /* Robot.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7900DEA920EA44BE0007F912 /* Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
 		79FC5C8E20E66D8F007F5C2E /* Méchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Méchant.swift"; sourceTree = "<group>"; };
 		79FEACD120E501560023B2CB /* Robot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Robot; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FEACD420E501560023B2CB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				79FEACDB20E5019C0023B2CB /* Robot.swift */,
 				79FC5C8E20E66D8F007F5C2E /* Méchant.swift */,
 				79FEACD420E501560023B2CB /* main.swift */,
+				7900DEA920EA44BE0007F912 /* Directions.swift */,
 			);
 			path = Robot;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 				79FEACDC20E5019D0023B2CB /* Robot.swift in Sources */,
 				79FC5C8F20E66D8F007F5C2E /* Méchant.swift in Sources */,
 				79FEACD520E501560023B2CB /* main.swift in Sources */,
+				7900DEAA20EA44BE0007F912 /* Directions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
